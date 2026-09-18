@@ -1,0 +1,18 @@
+1 - Entrar a https://discord.com/developers/docs/quick-start/getting-started
+y hacer click en "Step 1: Creating an app". (https://discord.com/developers/applications?new_application=true)
+
+2 - Ingresar un nombre a la APP
+
+3 - Ir a la sección de "Bot", resetear token y guardarlo. En la sección "Authorization Flow" habilitar public bot y en "Privileged Gateway Intents" habilitar todas las opciones. 
+
+4 - En la sección de OAuth2 en la parte de "Scope" seleccionar el checkbox "Bot" y cuando se habilite la sección de "Bot permissions" seleccionar el checkbox "Administrador"
+
+5 - En "Integration type" seleccionar "Guild Install", para que el bot quede en un servidor. 
+
+6 - Copiar el "Generated URL", pegarlo en el navegador, seleccionar el servidor donde va a estar el bot y autorizar.
+
+7 - Crear la ruta %APPDATA%\\Microsoft\\UserSecrets\\PII_DiscordBot_Demo
+
+8 - Crear el archivo "secrets.json" y en "DiscordToken" pegar el token del paso 3.
+
+
